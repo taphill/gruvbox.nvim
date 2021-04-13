@@ -4,7 +4,7 @@ A port of the [Gruvbox](https://github.com/morhetz/gruvbox) colorscheme for Neov
 
 ## Requirements
 
-You need to be running Neovim v0.5.0+
+You need to be running Neovim 0.5.0+
 
 ## Installation
 
@@ -24,12 +24,12 @@ use 'taphill/gruvbox.nvim'
 Enable the colorscheme:
 
 ```vim 
-"Vim-Script:
+" Vim-Script:
 colorscheme gruvbox_nvim
 ```
 
 ```lua
---Lua:
+-- Lua:
 require('colorbuddy').colorscheme('gruvbox_nvim')
 ```
 
