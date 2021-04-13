@@ -1,1 +1,1 @@
-lua require('gruvbox_nvim')
+" lua require('gruvbox_nvim')
