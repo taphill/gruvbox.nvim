@@ -41,6 +41,6 @@ At this time, only dark mode is available and I don't have plans of creating a l
 
 ## TODO
 
-There are still some extended filetype highlighting options that I have not yet added for the following languages:
+There are still some extended filetype highlighting options from the original Gruvbox that I have not yet added:
 
--  Clojure, C, PureScript, CoffeeScript, Objective-C, MoonScript, Java, Haskell, Vim, XML
+-  Clojure, PureScript, CoffeeScript, MoonScript, Java, Haskell, Vim, XML
