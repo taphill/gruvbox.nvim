@@ -10,7 +10,7 @@ local reverse = s.reverse
 local none = s.NONE
 local v = vim.g
 
-v.colors_name = 'gruvbox'
+v.colors_name = 'gruvbox.nvim'
 
 
 -------------------
