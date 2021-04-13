@@ -311,7 +311,6 @@ Group.new('luaTable', c.fg1, c.none, bold)
 -- Ruby
 Group.new('rubyHelper', c.fg1, c.none, none)
 Group.new('rubyInterpolationDelimiter', c.aqua, c.none, none)
-Group.new('rubyCurlyBlockDelimiter', c.fg1, c.none, bold)
 Group.new('rubyStringDelimiter', c.green, c.none, none)
 
 -- JSON
