@@ -291,6 +291,14 @@ Group.new('typeScriptHtmlElemProperties', c.fg1, c.none, none)
 Group.new('typeScriptNull', c.purple, c.none, none)
 Group.new('typeScriptInterpolationDelimiter', c.aqua, c.none, none)
 
+-- C
+Group.new('cOperator', c.purple, c.none, none)
+Group.new('cStructure', c.orange, c.none, none)
+
+-- Objective C
+Group.new('objcTypeModifier', c.red, c.none, none)
+Group.new('objcDirective', c.blue, c.none, none)
+
 -- Elixir
 Group.new('elixirDocString', c.gray, c.none, none)
 Group.new('elixirStringDelimiter', c.green, c.none, none)
