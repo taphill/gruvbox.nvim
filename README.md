@@ -43,4 +43,4 @@ At this time, only dark mode is available and I don't have plans of creating a l
 
 There are still some extended filetype highlighting options that I have not yet added for the following languages:
 
--  Clojure, C, Python, PureScript, CoffeeScript, Objective-C, MoonScript, Java, Haskell, Vim, XML
+-  Clojure, C, PureScript, CoffeeScript, Objective-C, MoonScript, Java, Haskell, Vim, XML
