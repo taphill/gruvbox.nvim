@@ -37,7 +37,6 @@ Color.new('purple', '#d3869b')
 Color.new('aqua',   '#8ec07c')
 Color.new('orange', '#fe8019')
 Color.new('gray',   '#928374')
-Color.new('white',  '#FEFEF8')
 
 
 ---------------------
@@ -99,7 +98,7 @@ Group.new('Structure', c.aqua, c.none, none)         -- A struct, union, enum, e
 Group.new('Type', c.yellow, c.none, none)            -- Generic type: int, long, char, etc.
 Group.new('Typedef', c.yellow, c.none, none)         -- A typedef
 
-Group.new('Comment', c.gray, c.none, italic)         -- Comments
+Group.new('Comment', c.gray, c.none, none)         -- Comments
 Group.new('Error', c.red, c.none, bold + reverse)    -- Error
 Group.new('Todo', c.fg0, c.bg0, bold + italic)       -- TODO
 Group.new('Underlined', c.blue, c.none, ul)
