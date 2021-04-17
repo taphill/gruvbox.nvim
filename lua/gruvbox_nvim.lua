@@ -93,12 +93,12 @@ Group.new('PreProc', c.aqua, c.none, none)           -- Generic Preprocessor
 Group.new('Repeat', c.red, c.none, none)             -- A for, do, while, etc.
 Group.new('Statement', c.red, c.none, none)          -- Generic statement
 Group.new('StorageClass', c.orange, c.none, none)    -- A static, register, volatile, etc.
-Group.new('String', c.green, c.none, italic)         -- String constant
+Group.new('String', c.green, c.none, none)           -- String constant
 Group.new('Structure', c.aqua, c.none, none)         -- A struct, union, enum, etc.
 Group.new('Type', c.yellow, c.none, none)            -- Generic type: int, long, char, etc.
 Group.new('Typedef', c.yellow, c.none, none)         -- A typedef
 
-Group.new('Comment', c.gray, c.none, none)         -- Comments
+Group.new('Comment', c.gray, c.none, italic)         -- Comments
 Group.new('Error', c.red, c.none, bold + reverse)    -- Error
 Group.new('Todo', c.fg0, c.bg0, bold + italic)       -- TODO
 Group.new('Underlined', c.blue, c.none, ul)
