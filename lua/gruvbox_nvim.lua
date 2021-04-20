@@ -110,7 +110,7 @@ Group.new('Underlined', c.blue, c.none, ul)
 
 -- General UI
 Group.new('Normal', c.fg1, c.bg0, none)              -- The main background and foreground colors
-Group.new('ColorColumn', c.none, c.bg2, none)         -- Used for the columns set with 'colorcolumn'
+Group.new('ColorColumn', c.none, c.bg3, none)         -- Used for the columns set with 'colorcolumn'
 Group.new('Conceal', c.blue, c.bg0, none)            -- Placeholder characters substituted for concealed text (see 'conceallevel')
 Group.new('Cursor', c.none, c.none, reverse)         -- The character under the cursor
 Group.new('CursorColumn', c.none, c.none, reverse)   -- Current cursor column highlight
