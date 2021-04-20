@@ -43,33 +43,8 @@ Color.new('gray',   '#928374')
 -- Terminal Colors --
 ---------------------
 
--- v.terminal_color_0 = '#282828'  -- black
--- v.terminal_color_8 = '#282828'  -- black bright
--- 
--- v.terminal_color_1 = '#cc241d'
--- v.terminal_color_9 = '#fb4934'
--- 
--- v.terminal_color_2 = '#98971a'
--- v.terminal_color_10 = '#b8bb26'
--- 
--- v.terminal_color_3 = '#d79921'
--- v.terminal_color_11 = '#fabd2f'
--- 
--- v.terminal_color_4 = '#458588'
--- v.terminal_color_12 = '#83a598'
--- 
--- v.terminal_color_5 = '#b16286'
--- v.terminal_color_13 = '#d3869b'
--- 
--- v.terminal_color_6 = '#689d6a'
--- v.terminal_color_14 = '#8ec07c'
--- 
--- v.terminal_color_7 = '#a89984'
--- v.terminal_color_15 = '#ebdbb2'
-
-
-v.terminal_color_0 = '#282828'  -- black
-v.terminal_color_8 = '#282828'  -- black bright
+v.terminal_color_0 = '#282828'   -- black
+v.terminal_color_8 = '#282828'   -- black bright
 
 v.terminal_color_1 = '#FF301B'   -- red
 v.terminal_color_9 = '#FF4352'   -- red
