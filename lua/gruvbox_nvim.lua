@@ -110,55 +110,37 @@ Group.new('Underlined', c.blue, c.none, ul)
 
 -- General UI
 Group.new('Normal', c.fg1, c.bg0, none)              -- The main background and foreground colors
-
-Group.new('ColorColumn', c.fg3, c.bg0, none)         -- Used for the columns set with 'colorcolumn'
+Group.new('ColorColumn', c.none, c.bg2, none)         -- Used for the columns set with 'colorcolumn'
 Group.new('Conceal', c.blue, c.bg0, none)            -- Placeholder characters substituted for concealed text (see 'conceallevel')
-
 Group.new('Cursor', c.none, c.none, reverse)         -- The character under the cursor
 Group.new('CursorColumn', c.none, c.none, reverse)   -- Current cursor column highlight
 Group.new('CursorLine', c.none, c.bg1, none)
 Group.new('CursorLineNr', c.yellow, c.bg1, none)     -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line
 Group.new('CursorIM', c.fg1, c.none, reverse)        -- Like Cursor but used when in IME mode
-
 Group.new('Directory', c.orange, c.none, bold)       -- Directory names (and other special names in listings)
-
 Group.new('EndOfBuffer', c.gray, c.none, none)       -- The '~' displayed and the end of a buffer
-
 Group.new('ErrorMsg', c.bg0, c.red, bold)            -- Error messages on the command line
-
 Group.new('MatchParen', c.none, c.bg3, bold)         -- Match paired bracket under the cursor
-
 Group.new('MoreMsg', c.yellow, c.none, bold)         -- More-prompt: -- More --
 Group.new('ModeMsg', c.yellow, c.none, bold)         -- Current mode message (e.g., -- INSERT --)
-
 Group.new('NonText', c.gray, c.none, none)           -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line)
-
 Group.new('Question', c.orange, c.none, bold)        -- 'Press enter' prompt and yes/no questions
-
 Group.new('Search', c.yellow, c.bg0, reverse)        -- Last search pattern highlighting (see 'hlsearch'). Also used for similar items that need to stand out.
 Group.new('IncSearch', c.yellow, c.bg0, reverse)     -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
-
 Group.new('SpecialKey', c.bg2, c.none, none)         -- Meta and special keys listed with ":map", also for text used to show unprintable characters in the text, 'listchars'. Generally: text that is displayed differently from what it really is
-
 Group.new('StatusLine', c.bg2, c.fg1, reverse)                                 -- Status line of current window
 Group.new('StatusLineNC', c.bg1, c.fg4, reverse)                               -- Status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window
 Group.new('StatusLineTerm', g.StatusLine, g.StatusLine, g.StatusLine)          -- Status line of current :terminal window
 Group.new('StatusLineTerm', c.bg0, c.green, g.StatusLine)                      -- Status line of current :terminal window
 Group.new('StatusLineTermNC', g.StatusLineNC, g.StatusLineNC, g.StatusLineNC)  -- Status line of non-current :terminal window
-
-Group.new('TabLineFill', c.bg4, c.bg1, none)                        -- Tab pages line filler
-Group.new('TabLineSel', c.green, c.bg1, none)                       -- Active tab page label
+Group.new('TabLineFill', c.bg4, c.bg1, none)                                   -- Tab pages line filler
+Group.new('TabLineSel', c.green, c.bg1, none)                                  -- Active tab page label
 Group.new('TabLine', g.TabLineFill, g.TabLineFill, g.TabLineFill)
-
 Group.new('Title', c.green, c.none, bold)            -- Titles for output from :set all, :autocmd, etc.
-
 Group.new('Visual', c.none, c.bg3, reverse)          -- Visual mode selection
 Group.new('VisualNOS', g.Visual, g.Visual, g.Visual) -- Visual mode selection when vim is "Not Owning the Selection". Only X11 Gui's gui-x11 and xterm-clipboard supports this.
-
 Group.new('VertSplit', c.bg3, c.none, none)          -- The column separating vertically split windows
-
 Group.new('WarningMsg', c.red, c.none, bold)         -- Warning messages
-
 Group.new('WildMenu', c.blue, c.bg2, bold)           -- Current match in wildmenu completion
 
 -- Diffs
