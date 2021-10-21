@@ -323,8 +323,7 @@ Group.new('rubyInterpolationDelimiter', c.aqua, c.none, none)
 Group.new('rubyStringDelimiter', c.green, c.none, none)
 
 -- Solidity 
--- Requires tomlion/vim-solidity
-Group.new('solKeyword', c.blue, c.none, none)
+-- Requires taphill/vim-solidity which is a fork of tomlion/vim-solidity
 Group.new('solContract', c.aqua, c.none, none)
 Group.new('solContractName', c.yellow, c.none, none)
 Group.new('solFunction', c.aqua, c.none, none)
