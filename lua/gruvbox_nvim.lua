@@ -322,6 +322,10 @@ Group.new('rubyHelper', c.fg1, c.none, none)
 Group.new('rubyInterpolationDelimiter', c.aqua, c.none, none)
 Group.new('rubyStringDelimiter', c.green, c.none, none)
 
+-- Solidity 
+-- Requires tomlion/vim-solidity
+Group.new('solContract', c.green, c.none, none)
+
 -- JSON
 Group.new('jsonKeyword', c.green, c.none, none)
 Group.new('jsonQuote', c.green, c.none, none)
