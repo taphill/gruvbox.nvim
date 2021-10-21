@@ -324,7 +324,8 @@ Group.new('rubyStringDelimiter', c.green, c.none, none)
 
 -- Solidity 
 -- Requires tomlion/vim-solidity
-Group.new('solContract', c.green, c.none, none)
+Group.new('solContract', c.aqua, c.none, none)
+Group.new('solContractName', c.yellow, c.none, none)
 
 -- JSON
 Group.new('jsonKeyword', c.green, c.none, none)
